@@ -96,8 +96,8 @@ console.log('Transferência realizada:', transferencia)
 - `CPF`
 - `CNPJ`
 - `EMAIL`
-- `PHONE`
-- `EVP` (chave aleatória)
+- `TELEFONE`
+- `CHAVE_ALEATORIA`
 
 ---
 
