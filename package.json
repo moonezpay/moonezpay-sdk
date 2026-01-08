@@ -1,6 +1,6 @@
 {
   "name": "moonezpay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SDK oficial para integração com a API MoonezPay",
   "keywords": [
     "moonezpay",
