@@ -1,6 +1,6 @@
 # MoonezPay SDK
 
-O **moonezpay-sdk** é uma biblioteca moderna e eficiente para integração com a plataforma **MoonezPay**, desenvolvida para facilitar operações financeiras e oferecer uma experiência **rápida, segura e descomplicada** em projetos **Node.js**.
+O SDK da MoonezPay é uma biblioteca moderna e eficiente para integração com a plataforma **MoonezPay**, desenvolvida para facilitar operações financeiras e oferecer uma experiência **rápida, segura e descomplicada** em projetos **Node.js**.
 
 Perfeito para desenvolvedores que buscam agilidade na implementação de pagamentos, gestão financeira automatizada e redução de complexidade no código.
 
@@ -17,7 +17,7 @@ Perfeito para desenvolvedores que buscam agilidade na implementação de pagamen
 ## 📦 Instalação
 
 ```bash
-npm install moonezpay-sdk
+npm install moonezpay
 ```
 
 ---
@@ -25,7 +25,7 @@ npm install moonezpay-sdk
 ## 🔐 Importar e Configurar
 
 ```typescript
-import MoonezPay from 'moonezpay-sdk'
+import MoonezPay from 'moonezpay'
 
 const moonezpay = new MoonezPay({
   client_id: 'SEU_CLIENT_ID',

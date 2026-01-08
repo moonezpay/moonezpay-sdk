@@ -1,5 +1,5 @@
 {
-  "name": "moonezpay-sdk",
+  "name": "moonezpay",
   "version": "1.0.0",
   "description": "SDK oficial para integração com a API MoonezPay",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/seu-usuario/moonezpay-sdk"
+    "url": "https://github.com/moonezpay/moonezpay-sdk"
   },
   "license": "MIT",
   "author": "Seu Nome",
@@ -26,22 +26,8 @@
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
-    "class-variance-authority": "0.7.1",
-    "clsx": "2.1.1",
-    "lucide-react": "0.562.0",
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "tailwind-merge": "3.4.0",
-    "tailwindcss-animate": "1.0.7"
-  },
   "devDependencies": {
     "@types/node": "^22",
-    "@types/react": "19.2.7",
-    "@types/react-dom": "19.2.3",
-    "postcss": "8.5.6",
-    "tailwindcss": "4.1.18",
     "tsup": "^8.0.0",
     "typescript": "^5"
   }
